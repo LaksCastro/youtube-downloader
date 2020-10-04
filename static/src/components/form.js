@@ -49,7 +49,9 @@ export async function Form() {
     const downloadAsVideo =
       document.querySelector("select").value === "Video - mp4";
 
-    if (!videoURL) return inputError.show();
+    if (!videoURL) {
+      return inputError.show();
+    }
     inputError.hide();
 
     try {
