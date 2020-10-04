@@ -12,7 +12,6 @@
     "dev": "nodemon src/index",
     "build": "node src/index"
   },
-  "heroku-run-build-script": true,
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
