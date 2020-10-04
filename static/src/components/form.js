@@ -11,11 +11,10 @@ export async function Form() {
   const socket = io.getSocket();
 
   const inputError = InputError();
-  const utils = Utils();
-
   const loading = Loading();
-
   const form = document.querySelector(".main-form");
+  
+  const utils = Utils();
 
   form.addEventListener("submit", onSubmit);
 
